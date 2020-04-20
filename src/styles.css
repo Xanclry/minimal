@@ -1,5 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --hue-start: 185;
+    --hue-finish: calc(var(--hue-start) - 12);
+}
+
 body {
     margin: 0;
     background-color: gray;
 }
+
