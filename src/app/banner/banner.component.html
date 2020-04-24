@@ -1,24 +1,37 @@
-<div class="banner-cover">
-    <div class="phone-cover">
-        <img src="assets/images/iphone.png" alt="Phone image">
-        <div class="circle" id="circle-1"></div>
-        <div class="circle" id="circle-2"></div>
-        <div class="circle" id="circle-3"></div>
+<div class="wrap">
+    <div class="device-select-panel">
+        <button (click)="changeColor(0)" [@activeUnactive]="activeButton === 0 ? 'active' : 'unactive'" class="device-select-panel__button" id="device-1">
+
+        </button>
+        <button (click)="changeColor(1)" [@activeUnactive]="activeButton === 1 ? 'active' : 'unactive'" class="device-select-panel__button" id="device-2">
+
+        </button>
+        <button (click)="changeColor(2)" [@activeUnactive]="activeButton === 2 ? 'active' : 'unactive'" class="device-select-panel__button" id="device-3">
+
+        </button>
     </div>
-    <div class="content">
-        <span class="label">
-            <img src="assets/images/planet.png" alt="Planet image">
-            <p>APP OF <br> THE YEAR</p>
-        </span>
-        <span class="title">
-            <h1>MY APPS SHOWCASE</h1>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
-        </span>
-        <span class="buy-section">
-            <button>
-                <img class="icon" src="assets/images/shopping.png" alt="Buy">
-                <p>Buy now</p>
-            </button>
-        </span>
+    <div class="banner-cover">
+        <div class="phone-cover">
+            <img src="assets/images/iphone.png" alt="Phone image">
+            <div class="circle" id="circle-1"></div>
+            <div class="circle" id="circle-2"></div>
+            <div class="circle" id="circle-3"></div>
+        </div>
+        <div class="content">
+            <span class="label">
+                <img src="assets/images/planet.png" alt="Planet image">
+                <p>APP OF <br> THE YEAR</p>
+            </span>
+            <span class="title">
+                <h1>MY APPS SHOWCASE</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            </span>
+            <span class="buy-section">
+                <button>
+                    <img class="icon" src="assets/images/shopping.png" alt="Buy">
+                    <p>Buy now</p>
+                </button>
+            </span>
+        </div>
     </div>
 </div>

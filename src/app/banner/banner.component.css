@@ -1,14 +1,34 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .banner-cover {
+    width: 100%;
     z-index: -10;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    background: linear-gradient(120deg, 
+    padding-left: 130px;
+    background: linear-gradient(100deg, 
         hsl(var(--hue-start), 100%, 24%) 10%,
         hsl(var(--hue-finish), 85%, 43%) 80%);
-        /* background-color: hsv(var(--hue-start), 100%, 50%); */
+}
+
+.device-select-panel {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.device-select-panel__button {
+    height: 33.3333%;
+    background-color: hsl(var(--hue-start), 100%, 24%);
+    cursor: pointer;
+    border: none;
 }
 
 .content {
@@ -89,7 +109,6 @@
     background: linear-gradient(to right bottom, 
     hsl(calc(var(--hue-start) - 3),94%,28%),
     hsl(calc(var(--hue-finish) + 3),90%,36%));
-    /* background: hsl(calc(var(--hue-start) - 3), 94%, 28%); */
     width: 440px;
 	height: 440px;
 }
@@ -97,7 +116,6 @@
     background: linear-gradient(to right bottom, 
     hsl(calc(var(--hue-start) - 5),94%,32%),
     hsl(calc(var(--hue-finish) + 5),86%,37%));
-    /* background: hsl(calc(var(--hue-start) - 5), 91%, 30%); */
     width: 380px;
 	height: 380px;
 }

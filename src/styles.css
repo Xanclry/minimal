@@ -1,6 +1,8 @@
 :root {
-    --hue-start: 185;
+    --hue-start: 100;
     --hue-finish: calc(var(--hue-start) - 12);
+    transition-property: var(--hue-start);
+    transition-duration: 500ms;
 }
 
 body {
