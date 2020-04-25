@@ -1,0 +1,34 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.text-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(var(--hue-finish), 85%, 43%);
+}
+
+.text {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.percents {
+    font-size: 100px;
+}
+
+.image-wrap {
+    background-color:  hsl(var(--hue-finish), 85%, 43%)
+}
+
+img {
+    margin: 40px
+}

@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    id="svg3735"
    version="1.1"
-   viewBox="0 0 210 297"
-   height="297mm"
-   width="210mm">
+   viewBox="0 0 150.82564 134.04155"
+   height="134.04155mm"
+   width="150.82564mm">
   <defs
      id="defs3729" />
   <metadata
@@ -25,6 +25,7 @@
     </rdf:RDF>
   </metadata>
   <g
+     transform="translate(-19.722537,-36.256714)"
      id="layer1">
     <path
        id="path3741"
@@ -57,7 +58,7 @@
          id="tspan3778">APP</tspan><tspan
          id="tspan3782"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1;font-family:'DejaVu Math TeX Gyre';-inkscape-font-specification:'DejaVu Math TeX Gyre';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.42663679"
-         y="123.54541"
+         y="122.78709"
          x="109.06927">Of the year</tspan></text>
     <rect
        rx="3.6000001"

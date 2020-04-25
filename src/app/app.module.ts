@@ -7,13 +7,15 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
 import { BannerComponent } from './banner/banner.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './about/about.component';
+import { PercentsComponent } from './percents/percents.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopMenuComponent,
     BannerComponent,
-    AboutComponent
+    AboutComponent,
+    PercentsComponent
   ],
   imports: [
     BrowserModule,
