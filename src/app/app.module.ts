@@ -8,6 +8,7 @@ import { BannerComponent } from './banner/banner.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './about/about.component';
 import { PercentsComponent } from './percents/percents.component';
+import { ShowcaseComponent } from './showcase/showcase.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PercentsComponent } from './percents/percents.component';
     TopMenuComponent,
     BannerComponent,
     AboutComponent,
-    PercentsComponent
+    PercentsComponent,
+    ShowcaseComponent
   ],
   imports: [
     BrowserModule,
