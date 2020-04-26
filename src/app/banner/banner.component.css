@@ -1,12 +1,10 @@
 .wrap {
     display: flex;
     flex-direction: row;
-    
 }
 
 .banner-cover {
     width: 100%;
-    z-index: -10;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,11 +23,16 @@
 }
 
 .device-select-panel__button {
-    height: 33.3333%;
+    height: calc(100% / 3);
     background-color: hsl(var(--hue-start), 100%, 24%);
     cursor: pointer;
     border: none;
 }
+
+.device-select-panel__button:focus {
+    outline: none;
+}
+
 
 .content {
     z-index: 5;
@@ -44,11 +47,15 @@
 .label {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.label p {
+    font-size: 17px;
 }
 
 .label img {
-    height: 60px;
+    height: 50px;
     margin-right: 10px;
 }
 
@@ -61,7 +68,7 @@
 }
 
 .title h1 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .buy-section button {
@@ -77,11 +84,11 @@
 
 .buy-section button img {
     background-color: hsl(var(--hue-start), 45%, 35%);
-    padding: 8px 10px 8px 10px;
+    padding: 9px 10px 9px 10px;
 }
 
 .buy-section button p {
-    padding: 10px;
+    padding: 0 10px 0 10px;
     margin: 0 8px 0 8px;
     color: white;
     font-size: 20px;
