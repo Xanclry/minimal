@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './about/about.component';
 import { PercentsComponent } from './percents/percents.component';
 import { ShowcaseComponent } from './showcase/showcase.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ShowcaseComponent } from './showcase/showcase.component';
     BannerComponent,
     AboutComponent,
     PercentsComponent,
-    ShowcaseComponent
+    ShowcaseComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

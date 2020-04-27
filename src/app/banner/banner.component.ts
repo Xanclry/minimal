@@ -14,10 +14,12 @@ import {
     trigger('activeUnactive', [
       // ...
       state('active', style({
-        backgroundColor: '*'
+        backgroundColor: '*',
+        fill: 'white',
       })),
       state('unactive', style({
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        fill: 'gray',
       })),
       transition('* => *', [
         animate(100)
