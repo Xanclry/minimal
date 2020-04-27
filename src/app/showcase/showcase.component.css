@@ -1,0 +1,105 @@
+.showcase-wrap {
+    margin-top: 100px;
+}
+
+.top-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-line__element {
+    width: calc(100% / 6);
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-line__element:nth-child(1) {
+    background-color: hsl(calc(var(--hue-start) - 1), 98%, 21%);
+}
+
+.top-line__element:nth-child(2) {
+    background-color: hsl(calc(var(--hue-start) - 1), 87%, 28%);
+}
+
+.top-line__element:nth-child(3) {
+    background-color: hsl(calc(var(--hue-start) - 1), 80%, 33%);
+}
+
+.top-line__element:nth-child(4) {
+    background-color: hsl(calc(var(--hue-start) - 1), 71%, 39%);
+}
+
+.top-line__element:nth-child(5) {
+    background-color: hsl(calc(var(--hue-start) - 1), 65%, 46%);
+}
+
+.top-line__element:nth-child(6) {
+    background-color: hsl(calc(var(--hue-start) - 1), 65%, 54%);
+}
+
+.showcase-content-wrap {
+    height: auto;
+    background: linear-gradient(100deg, 
+    hsl(calc(var(--hue-start) - 1), 98%, 21%) 30%,
+        hsl(calc(var(--hue-finish) + 2), 89%, 33%) 80%);
+}
+
+.laptop-wrap img {
+    width: 500px;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-top: 100px;    
+    padding-bottom: 100px;
+    padding-left: 150px;
+}
+
+.showcase-buying .title {
+    margin: 0;
+    color: white;
+}
+
+.showcase-buying .title h1,h3 {
+    margin: 0;
+}
+
+.showcase-buying .title h1 {
+    margin-bottom: 10px;
+}
+
+.buy-section {
+    margin-top: 40px;
+}
+
+.buy-section button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background-color: hsl(var(--hue-start), 60%, 50%);
+    cursor: pointer;
+}
+
+.buy-section button img {
+    background-color: hsl(var(--hue-start), 65%, 55%);
+    padding: 8px 10px 8px 10px;
+}
+
+.buy-section button p {
+    padding: 10px;
+    margin: 0 8px 0 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.showcase-buying {
+    margin-top: 50px;
+    margin-left: 40px;
+}
